@@ -4,13 +4,13 @@ h1{
 
 }
 body{
-    color:rgb(243, 231, 176);
+    color:beige;
 }
-h3{
-    color:rgb(32, 149, 153);
-}
+
+
 h2{
     color:cadetblue; 
+    font-family: 'Courier New', Courier, monospace
 }
 p{
     color:darkcyan;  
