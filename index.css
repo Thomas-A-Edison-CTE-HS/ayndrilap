@@ -1,8 +1,9 @@
 h1{
    color:cadetblue; 
+   font-family:'Courier New', Courier, monospace
 
 }
-background{
+body{
     color:rgb(243, 231, 176);
 }
 h2{
