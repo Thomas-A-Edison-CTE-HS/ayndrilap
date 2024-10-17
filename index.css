@@ -1,12 +1,15 @@
 h1{
    color:cadetblue; 
+   font-family: 'Courier New', Courier, monospace;
 }
 background{
     color:rgb(243, 231, 176);
 }
 h2{
     color:cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
     color:darkcyan;
+    font-size:medium;
 }
