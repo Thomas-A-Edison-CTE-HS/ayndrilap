@@ -7,20 +7,25 @@
   font-size: 16px;
   color: white;
   background-color: forestgreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* style for the featured species and conservation efforts */
 
 .blurb{
   background: #ffffe0;
- text-align: center;
+  text-align: center;
   list-style-position:inside;
+  justify-content: flex-start;
+
   
 }
 .blurb-2{
   background: #ffffe0;
   text-align: center;
   list-style-position:inside;
+  justify-content: flex-end;
 
 }
 
@@ -72,27 +77,38 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
+
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: forestgreen;
+  color: white;
+  text-align: center;
 }
 
 .animal-card{
+  column-gap: 60px;
   width: 250px;
   height: 300px;
-  margin: 20px;
+  margin: 10px;
+  padding: 10px;
   display: flex;
   text-align: center;
   display: flex;
-  align-items: center;
   flex-direction: column;
   overflow: hidden;
   border: 1px solid;
   border-radius: 8px;
-  justify-content: flex-start;
   flex-wrap: wrap;
   display: flex; 
   justify-content: center; 
-  align-items:center;
   float: left;
- 
+  background: lightgrey;
+  
 }
 .animal-card
 img{
@@ -102,7 +118,13 @@ max-height: 150px;
 }
 .animal-card h3{
   margin: 10px 0 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
 }
-.footer{
-float: left;
+.p{
+  margin: 10px 0 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
 }
