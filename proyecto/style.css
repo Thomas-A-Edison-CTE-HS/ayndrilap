@@ -99,9 +99,9 @@
   .animal-card h3{
     margin: 10px 0 5px;
   }
-  .credits{
-    float: right;
-    float: inherit;
-    text-align: justify;
-  }
+  
+  .footer{
+    float: left;
+    }
+    
   
